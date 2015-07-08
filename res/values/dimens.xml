@@ -1,0 +1,7 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_common_space">16dp</dimen>
+    <dimen name="article_space">5dp</dimen>
+
+</resources>

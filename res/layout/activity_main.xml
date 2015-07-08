@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/activity_common_space"
+    android:paddingRight="@dimen/activity_common_space"
+    android:background="#EAEAEA"
+    tools:context="com.plus256.sipapa.MainActivity">
+
+	<LinearLayout
+	    android:orientation="vertical"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+	    
+	    <RelativeLayout
+	        android:id="@+id/top_article"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="@dimen/activity_common_space">
+	        <ImageView
+		       	android:id="@+id/top_article_cover"
+		       	android:layout_width="match_parent"
+		   		android:layout_height="wrap_content"
+		       	android:src="@drawable/top_cover"
+		       	android:scaleType="fitStart"
+		       	android:contentDescription="@string/top_cover_descr"/>
+		   
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical"
+			   	android:background="#EEFFFFFF"
+			   	android:padding="@dimen/activity_common_space"
+	            android:layout_marginTop="@dimen/activity_common_space">
+	            
+	            <TextView 
+			       	android:layout_width="match_parent"
+				   	android:layout_height="wrap_content"
+				   	android:text="@string/top_article_cat"
+				   	android:textColor="#09F"/>
+	            
+	            <TextView 
+			       	android:layout_width="match_parent"
+				   	android:layout_height="wrap_content"
+				   	android:text="@string/top_article_title"/>
+	            
+	        </LinearLayout>
+	        
+	    </RelativeLayout>
+	        
+        <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:id="@+id/main_article_container"
+	        android:layout_marginTop="@dimen/activity_common_space">
+	        
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+			   	android:background="#FFF"
+			   	android:layout_marginBottom="@dimen/activity_common_space">
+	            
+	            <ImageView 
+			       	android:layout_width="100dip"
+				   	android:layout_height="100dip"
+				   	android:src="@drawable/facebook_delete"
+				   	android:scaleType="centerCrop"
+				   	android:contentDescription="@string/top_cover_descr"/>
+	            
+	            <LinearLayout
+	                android:orientation="vertical"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:padding="@dimen/article_space">
+	                
+	                <TextView 
+				       	android:layout_width="match_parent"
+					   	android:layout_height="wrap_content"
+					   	android:text="@string/top_article_title"/>
+	                
+	                <TextView 
+				       	android:layout_width="match_parent"
+					   	android:layout_height="wrap_content"
+					   	android:text="@string/article_author"
+					   	android:textColor="#09F"/>
+	                
+	                <TextView 
+				       	android:layout_width="match_parent"
+					   	android:layout_height="wrap_content"
+					   	android:text="@string/article_date"
+					   	android:textStyle="italic"/>
+	                
+	            </LinearLayout>
+	            
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+			   	android:background="#FFF"
+			   	android:layout_marginBottom="@dimen/activity_common_space">
+	            
+	            <ImageView 
+			       	android:layout_width="100dip"
+				   	android:layout_height="100dip"
+				   	android:src="@drawable/internet_comm"
+				   	android:scaleType="centerCrop"
+				   	android:contentDescription="@string/top_cover_descr"/>
+	            
+	            <LinearLayout
+	                android:orientation="vertical"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:padding="@dimen/article_space">
+	                
+	                <TextView 
+				       	android:layout_width="match_parent"
+					   	android:layout_height="wrap_content"
+					   	android:text="@string/top_article_title"/>
+	                
+	                <TextView 
+				       	android:layout_width="match_parent"
+					   	android:layout_height="wrap_content"
+					   	android:text="@string/article_author"
+					   	android:textColor="#09F"/>
+	                
+	                <TextView 
+				       	android:layout_width="match_parent"
+					   	android:layout_height="wrap_content"
+					   	android:text="@string/article_date"
+					   	android:textStyle="italic"/>
+	                
+	            </LinearLayout>
+	            
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+			   	android:background="#FFF"
+			   	android:layout_marginBottom="@dimen/activity_common_space">
+	            
+	            <ImageView 
+			       	android:layout_width="100dip"
+				   	android:layout_height="100dip"
+				   	android:src="@drawable/lg_g4"
+				   	android:scaleType="centerCrop"
+				   	android:contentDescription="@string/top_cover_descr"/>
+	            
+	            <LinearLayout
+	                android:orientation="vertical"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:padding="@dimen/article_space">
+	                
+	                <TextView 
+				       	android:layout_width="match_parent"
+					   	android:layout_height="wrap_content"
+					   	android:text="@string/top_article_title"/>
+	                
+	                <TextView 
+				       	android:layout_width="match_parent"
+					   	android:layout_height="wrap_content"
+					   	android:text="@string/article_author"
+					   	android:textColor="#09F"/>
+	                
+	                <TextView 
+				       	android:layout_width="match_parent"
+					   	android:layout_height="wrap_content"
+					   	android:text="@string/article_date"
+					   	android:textStyle="italic"/>
+	                
+	            </LinearLayout>
+	            
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+			   	android:background="#FFF"
+			   	android:layout_marginBottom="@dimen/activity_common_space">
+	            
+	            <ImageView 
+			       	android:layout_width="100dip"
+				   	android:layout_height="100dip"
+				   	android:src="@drawable/visual_studio"
+				   	android:scaleType="centerCrop"
+				   	android:contentDescription="@string/top_cover_descr"/>
+	            
+	            <LinearLayout
+	                android:orientation="vertical"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:padding="@dimen/article_space">
+	                
+	                <TextView 
+				       	android:layout_width="match_parent"
+					   	android:layout_height="wrap_content"
+					   	android:text="@string/top_article_title"/>
+	                
+	                <TextView 
+				       	android:layout_width="match_parent"
+					   	android:layout_height="wrap_content"
+					   	android:text="@string/article_author"
+					   	android:textColor="#09F"/>
+	                
+	                <TextView 
+				       	android:layout_width="match_parent"
+					   	android:layout_height="wrap_content"
+					   	android:text="@string/article_date"
+					   	android:textStyle="italic"/>
+	                
+	            </LinearLayout>
+	            
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+			   	android:background="#FFF"
+			   	android:layout_marginBottom="@dimen/activity_common_space">
+	            
+	            <ImageView 
+			       	android:layout_width="100dip"
+				   	android:layout_height="100dip"
+				   	android:src="@drawable/gaming"
+				   	android:scaleType="centerCrop"
+				   	android:contentDescription="@string/top_cover_descr"/>
+	            
+	            <LinearLayout
+	                android:orientation="vertical"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:padding="@dimen/article_space">
+	                
+	                <TextView 
+				       	android:layout_width="match_parent"
+					   	android:layout_height="wrap_content"
+					   	android:text="@string/top_article_title"/>
+	                
+	                <TextView 
+				       	android:layout_width="match_parent"
+					   	android:layout_height="wrap_content"
+					   	android:text="@string/article_author"
+					   	android:textColor="#09F"/>
+	                
+	                <TextView 
+				       	android:layout_width="match_parent"
+					   	android:layout_height="wrap_content"
+					   	android:text="@string/article_date"
+					   	android:textStyle="italic"/>
+	                
+	            </LinearLayout>
+	            
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+			   	android:background="#FFF"
+			   	android:layout_marginBottom="@dimen/activity_common_space">
+	            
+	            <ImageView 
+			       	android:layout_width="100dip"
+				   	android:layout_height="100dip"
+				   	android:src="@drawable/delhi_rickshaw"
+				   	android:scaleType="centerCrop"
+				   	android:contentDescription="@string/top_cover_descr"/>
+	            
+	            <LinearLayout
+	                android:orientation="vertical"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:padding="@dimen/article_space">
+	                
+	                <TextView 
+				       	android:layout_width="match_parent"
+					   	android:layout_height="wrap_content"
+					   	android:text="@string/top_article_title"/>
+	                
+	                <TextView 
+				       	android:layout_width="match_parent"
+					   	android:layout_height="wrap_content"
+					   	android:text="@string/article_author"
+					   	android:textColor="#09F"/>
+	                
+	                <TextView 
+				       	android:layout_width="match_parent"
+					   	android:layout_height="wrap_content"
+					   	android:text="@string/article_date"
+					   	android:textStyle="italic"/>
+	                
+	            </LinearLayout>
+	            
+	        </LinearLayout>
+	        
+	    </LinearLayout>
+	
+	</LinearLayout>
+
+</ScrollView>
