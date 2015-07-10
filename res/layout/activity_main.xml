@@ -15,18 +15,30 @@
 	    android:layout_width="match_parent"
 	    android:layout_height="wrap_content">
 	    
+	    <!-- Start Tagline -->
+	    <TextView 
+	       	android:layout_width="match_parent"
+		   	android:layout_height="wrap_content"
+		   	android:text="@string/app_tagline"
+		   	android:background="@color/White"
+		   	android:padding="@dimen/activity_common_space"
+		   	android:gravity="center_horizontal"/>
+	    <!-- End tagline -->
+	    
+	    <!-- Start Top Article Container -->
 	    <RelativeLayout
 	        android:id="@+id/top_article"
 	        android:layout_width="match_parent"
 	        android:layout_height="wrap_content"
 	        android:layout_marginTop="@dimen/activity_common_space">
+
 	        <ImageView
-		       	android:id="@+id/top_article_cover"
-		       	android:layout_width="match_parent"
-		   		android:layout_height="wrap_content"
-		       	android:src="@drawable/top_cover"
-		       	android:scaleType="fitStart"
-		       	android:contentDescription="@string/top_cover_descr"/>
+	            android:id="@+id/top_article_cover"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:contentDescription="@string/top_cover_descr"
+	            android:scaleType="fitXY"
+	            android:src="@drawable/new_macbook" />
 		   
 	        <LinearLayout
 	            android:layout_width="match_parent"
@@ -40,7 +52,7 @@
 			       	android:layout_width="match_parent"
 				   	android:layout_height="wrap_content"
 				   	android:text="@string/top_article_cat"
-				   	android:textColor="#09F"/>
+				   	android:textColor="@color/ThemeColor"/>
 	            
 	            <TextView 
 			       	android:layout_width="match_parent"
@@ -50,7 +62,9 @@
 	        </LinearLayout>
 	        
 	    </RelativeLayout>
-	        
+	    <!-- End Top Article Container -->
+	    
+	    <!-- Start Main Article Container -->
         <LinearLayout
 	        android:layout_width="match_parent"
 	        android:layout_height="wrap_content"
@@ -58,253 +72,48 @@
 	        android:id="@+id/main_article_container"
 	        android:layout_marginTop="@dimen/activity_common_space">
 	        
-	        <LinearLayout
-	            android:layout_width="match_parent"
-	            android:layout_height="wrap_content"
-	            android:orientation="horizontal"
-			   	android:background="#FFF"
-			   	android:layout_marginBottom="@dimen/activity_common_space">
-	            
-	            <ImageView 
-			       	android:layout_width="100dip"
-				   	android:layout_height="100dip"
-				   	android:src="@drawable/facebook_delete"
-				   	android:scaleType="centerCrop"
-				   	android:contentDescription="@string/top_cover_descr"/>
-	            
-	            <LinearLayout
-	                android:orientation="vertical"
-	                android:layout_width="match_parent"
-	                android:layout_height="match_parent"
-	                android:padding="@dimen/article_space">
-	                
-	                <TextView 
-				       	android:layout_width="match_parent"
-					   	android:layout_height="wrap_content"
-					   	android:text="@string/top_article_title"/>
-	                
-	                <TextView 
-				       	android:layout_width="match_parent"
-					   	android:layout_height="wrap_content"
-					   	android:text="@string/article_author"
-					   	android:textColor="#09F"/>
-	                
-	                <TextView 
-				       	android:layout_width="match_parent"
-					   	android:layout_height="wrap_content"
-					   	android:text="@string/article_date"
-					   	android:textStyle="italic"/>
-	                
-	            </LinearLayout>
-	            
-	        </LinearLayout>
-	        
-	        <LinearLayout
-	            android:layout_width="match_parent"
-	            android:layout_height="wrap_content"
-	            android:orientation="horizontal"
-			   	android:background="#FFF"
-			   	android:layout_marginBottom="@dimen/activity_common_space">
-	            
-	            <ImageView 
-			       	android:layout_width="100dip"
-				   	android:layout_height="100dip"
-				   	android:src="@drawable/internet_comm"
-				   	android:scaleType="centerCrop"
-				   	android:contentDescription="@string/top_cover_descr"/>
-	            
-	            <LinearLayout
-	                android:orientation="vertical"
-	                android:layout_width="match_parent"
-	                android:layout_height="wrap_content"
-	                android:padding="@dimen/article_space">
-	                
-	                <TextView 
-				       	android:layout_width="match_parent"
-					   	android:layout_height="wrap_content"
-					   	android:text="@string/top_article_title"/>
-	                
-	                <TextView 
-				       	android:layout_width="match_parent"
-					   	android:layout_height="wrap_content"
-					   	android:text="@string/article_author"
-					   	android:textColor="#09F"/>
-	                
-	                <TextView 
-				       	android:layout_width="match_parent"
-					   	android:layout_height="wrap_content"
-					   	android:text="@string/article_date"
-					   	android:textStyle="italic"/>
-	                
-	            </LinearLayout>
-	            
-	        </LinearLayout>
-	        
-	        <LinearLayout
-	            android:layout_width="match_parent"
-	            android:layout_height="wrap_content"
-	            android:orientation="horizontal"
-			   	android:background="#FFF"
-			   	android:layout_marginBottom="@dimen/activity_common_space">
-	            
-	            <ImageView 
-			       	android:layout_width="100dip"
-				   	android:layout_height="100dip"
-				   	android:src="@drawable/lg_g4"
-				   	android:scaleType="centerCrop"
-				   	android:contentDescription="@string/top_cover_descr"/>
-	            
-	            <LinearLayout
-	                android:orientation="vertical"
-	                android:layout_width="match_parent"
-	                android:layout_height="wrap_content"
-	                android:padding="@dimen/article_space">
-	                
-	                <TextView 
-				       	android:layout_width="match_parent"
-					   	android:layout_height="wrap_content"
-					   	android:text="@string/top_article_title"/>
-	                
-	                <TextView 
-				       	android:layout_width="match_parent"
-					   	android:layout_height="wrap_content"
-					   	android:text="@string/article_author"
-					   	android:textColor="#09F"/>
-	                
-	                <TextView 
-				       	android:layout_width="match_parent"
-					   	android:layout_height="wrap_content"
-					   	android:text="@string/article_date"
-					   	android:textStyle="italic"/>
-	                
-	            </LinearLayout>
-	            
-	        </LinearLayout>
-	        
-	        <LinearLayout
-	            android:layout_width="match_parent"
-	            android:layout_height="wrap_content"
-	            android:orientation="horizontal"
-			   	android:background="#FFF"
-			   	android:layout_marginBottom="@dimen/activity_common_space">
-	            
-	            <ImageView 
-			       	android:layout_width="100dip"
-				   	android:layout_height="100dip"
-				   	android:src="@drawable/visual_studio"
-				   	android:scaleType="centerCrop"
-				   	android:contentDescription="@string/top_cover_descr"/>
-	            
-	            <LinearLayout
-	                android:orientation="vertical"
-	                android:layout_width="match_parent"
-	                android:layout_height="wrap_content"
-	                android:padding="@dimen/article_space">
-	                
-	                <TextView 
-				       	android:layout_width="match_parent"
-					   	android:layout_height="wrap_content"
-					   	android:text="@string/top_article_title"/>
-	                
-	                <TextView 
-				       	android:layout_width="match_parent"
-					   	android:layout_height="wrap_content"
-					   	android:text="@string/article_author"
-					   	android:textColor="#09F"/>
-	                
-	                <TextView 
-				       	android:layout_width="match_parent"
-					   	android:layout_height="wrap_content"
-					   	android:text="@string/article_date"
-					   	android:textStyle="italic"/>
-	                
-	            </LinearLayout>
-	            
-	        </LinearLayout>
-	        
-	        <LinearLayout
-	            android:layout_width="match_parent"
-	            android:layout_height="wrap_content"
-	            android:orientation="horizontal"
-			   	android:background="#FFF"
-			   	android:layout_marginBottom="@dimen/activity_common_space">
-	            
-	            <ImageView 
-			       	android:layout_width="100dip"
-				   	android:layout_height="100dip"
-				   	android:src="@drawable/gaming"
-				   	android:scaleType="centerCrop"
-				   	android:contentDescription="@string/top_cover_descr"/>
-	            
-	            <LinearLayout
-	                android:orientation="vertical"
-	                android:layout_width="match_parent"
-	                android:layout_height="wrap_content"
-	                android:padding="@dimen/article_space">
-	                
-	                <TextView 
-				       	android:layout_width="match_parent"
-					   	android:layout_height="wrap_content"
-					   	android:text="@string/top_article_title"/>
-	                
-	                <TextView 
-				       	android:layout_width="match_parent"
-					   	android:layout_height="wrap_content"
-					   	android:text="@string/article_author"
-					   	android:textColor="#09F"/>
-	                
-	                <TextView 
-				       	android:layout_width="match_parent"
-					   	android:layout_height="wrap_content"
-					   	android:text="@string/article_date"
-					   	android:textStyle="italic"/>
-	                
-	            </LinearLayout>
-	            
-	        </LinearLayout>
-	        
-	        <LinearLayout
-	            android:layout_width="match_parent"
-	            android:layout_height="wrap_content"
-	            android:orientation="horizontal"
-			   	android:background="#FFF"
-			   	android:layout_marginBottom="@dimen/activity_common_space">
-	            
-	            <ImageView 
-			       	android:layout_width="100dip"
-				   	android:layout_height="100dip"
-				   	android:src="@drawable/delhi_rickshaw"
-				   	android:scaleType="centerCrop"
-				   	android:contentDescription="@string/top_cover_descr"/>
-	            
-	            <LinearLayout
-	                android:orientation="vertical"
-	                android:layout_width="match_parent"
-	                android:layout_height="wrap_content"
-	                android:padding="@dimen/article_space">
-	                
-	                <TextView 
-				       	android:layout_width="match_parent"
-					   	android:layout_height="wrap_content"
-					   	android:text="@string/top_article_title"/>
-	                
-	                <TextView 
-				       	android:layout_width="match_parent"
-					   	android:layout_height="wrap_content"
-					   	android:text="@string/article_author"
-					   	android:textColor="#09F"/>
-	                
-	                <TextView 
-				       	android:layout_width="match_parent"
-					   	android:layout_height="wrap_content"
-					   	android:text="@string/article_date"
-					   	android:textStyle="italic"/>
-	                
-	            </LinearLayout>
-	            
-	        </LinearLayout>
-	        
 	    </LinearLayout>
+	    <!-- End Main Article Container -->
+	    
+        <!-- Start Subscription -->
+        <LinearLayout
+            android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+			android:background="@color/White"
+			android:layout_marginTop="@dimen/activity_common_space"
+			android:layout_marginBottom="@dimen/activity_common_space">
+	        
+            <TextView
+                android:layout_width="match_parent"
+		    	android:layout_height="wrap_content"
+		    	android:padding="@dimen/activity_rare_space"
+		    	android:text="@string/subscribe_head_title"
+		    	android:textStyle="bold"
+		    	android:gravity="center_horizontal"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tiny_divider"
+                android:background="#F1F1F1"/>
+            
+            <EditText
+                android:id="@+id/subscribe_email"
+                android:inputType="textEmailAddress"
+                android:layout_width="match_parent"
+		    	android:layout_height="wrap_content"
+                android:hint="@string/subscribe_email_hint"
+                android:layout_marginLeft="@dimen/activity_rare_space"
+                android:layout_marginRight="@dimen/activity_rare_space"/>
+            <Button
+                android:layout_width="match_parent"
+		    	android:layout_height="wrap_content"
+		    	android:text="@string/subscribe_button_text"
+		    	android:textColor="@color/White"
+		    	android:background="@color/ThemeColor"
+		    	android:layout_margin="@dimen/activity_rare_space"/>
+            
+        </LinearLayout>
+        <!-- End Subscription -->
 	
 	</LinearLayout>
 

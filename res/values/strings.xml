@@ -2,11 +2,15 @@
 <resources>
 
     <string name="app_name">Sipapa</string>
+    <string name="app_tagline">Home Brewed Entertainment</string>
     <string name="action_settings">Settings</string>
     <string name="top_cover_descr">The Top Cover Picture</string>
     <string name="top_article_cat">Tech</string>
     <string name="top_article_title">TAG Heuer\'s luxury smartwatch to cost $1400, have a 40-hour battery.</string>
     <string name="article_author">Collins Wagaba</string>
     <string name="article_date">Apr 30th, 2015</string>
+    <string name="subscribe_head_title">NEWSLETTERS</string>
+    <string name="subscribe_email_hint">Email Address</string>
+    <string name="subscribe_button_text">SUBSCRIBE</string>
 
 </resources>
