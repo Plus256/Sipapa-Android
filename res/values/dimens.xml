@@ -5,5 +5,9 @@
     <dimen name="activity_common_space">16dp</dimen>
     <dimen name="activity_rare_space">5dp</dimen>
     <dimen name="tiny_divider">1dp</dimen>
+    <dimen name="big_divider">5dp</dimen>
+    <dimen name="basic_thumbnail">100dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
 
 </resources>
