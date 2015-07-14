@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/Collins/Android/Sipapa-Android/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="Black">#000</color>
+    <color name="ChocoBrown">#351814</color>
+    <color name="CoolBlue">#09F</color>
+    <color name="DarkGrey">#555</color>
+    <color name="DarkOrange">#F90</color>
+    <color name="Green">#060</color>
+    <color name="LightGreen">#0F0</color>
+    <color name="LightGrey">#A1A1A1</color>
+    <color name="ThemeColor">#FC0</color>
+    <color name="White">#FFF</color>
+    <!-- From: file:/Users/Collins/Android/Sipapa-Android/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_common_space">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_rare_space">5dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="basic_thumbnail">100dp</dimen>
+    <dimen name="big_divider">5dp</dimen>
+    <dimen name="tiny_divider">1dp</dimen>
+    <!-- From: file:/Users/Collins/Android/Sipapa-Android/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="about_text">About</string>
+    <string name="action_more">More Options</string>
+    <string name="action_search">Search Articles</string>
+    <string name="action_settings">Settings</string>
+    <string name="ad_description">Much more than a Safari.</string>
+    <string name="ad_title">Rafiki Adeventures</string>
+    <string name="advertise_text">Advertise</string>
+    <string name="app_full_name">Sipapa Entertainment</string>
+    <string name="app_name">C3 News</string>
+    <string name="app_tagline">Home Brewed Entertainment</string>
+    <string name="article_author">Collins Wagaba</string>
+    <string name="article_body">We no longer require homes, bars, offices or cafes to keep in touch with people. We can do it literally anywhere we happen to be. This begs the question: when we connect to our devices, are we disconnecting from the people around us? Are we hiding behind a screen from the physical world and becoming antisocial in turn? While there is a sense of panic about how the Internet is detrimental to communication, there are also lots of people who believe that it is actually enhancing our relationships. For better or worse, here are a few of the ways the Internet is changing the way we communicate, and how you can keep abreast of tech advances thanks to eBay.</string>
+    <string name="article_date">Apr 30th, 2015</string>
+    <string name="article_views">139K Views</string>
+    <string name="contact_text">Contact</string>
+    <string name="copyright">Copyright 2015 Sipapa Entertainment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="social_link">Social Link</string>
+    <string name="subscribe_button_text">SUBSCRIBE</string>
+    <string name="subscribe_email_hint">Email Address</string>
+    <string name="subscribe_head_title">NEWSLETTERS</string>
+    <string name="top_article_cat">Tech</string>
+    <string name="top_article_title">TAG Heuer\'s luxury smartwatch to cost $1400, have a 40-hour battery.</string>
+    <string name="top_cover_descr">The Top Cover Picture</string>
+    <!-- From: file:/Users/Collins/Android/Sipapa-Android/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="@style/AppBaseTheme">
+        <!-- Define Custom Styles -->
+    </style>
+</resources>
