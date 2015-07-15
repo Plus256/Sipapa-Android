@@ -5,9 +5,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -38,6 +35,16 @@ public class MainActivity extends Activity {
 	    View inflated_ad_item=ad_inflater.inflate(R.layout.ad_item, ad_item);
 	    
 	    ad_container.addView(inflated_ad_item);
+	    
+	  //adding the footer
+	    LinearLayout body_wrapper=(LinearLayout) findViewById(R.id.body_wrapper);
+	    LinearLayout footer=(LinearLayout) findViewById(R.id.footer);
+	    
+	    LayoutInflater footer_inflater=(LayoutInflater) getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+	    View inflated_footer=footer_inflater.inflate(R.layout.footer, footer);
+	    
+	    body_wrapper.addView(inflated_footer);
+	    
 	    
 	  //setting top_article_cover onclicklistener
 	    ImageView top_article_cover=(ImageView) findViewById(R.id.top_article_cover);
@@ -95,18 +102,6 @@ public class MainActivity extends Activity {
 	    	
 	    });
         
-    }
-    
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.main, menu);
-        return super.onCreateOptionsMenu(menu);
-    }
-    
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-    	return super.onOptionsItemSelected(item);
     }
     
 }

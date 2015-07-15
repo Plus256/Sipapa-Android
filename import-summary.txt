@@ -7,17 +7,6 @@ The following files were *not* copied into the new Gradle project; you
 should evaluate whether these are still needed in your project and if
 so manually move them:
 
-* .DS_Store
-* .idea/
-* .idea/.name
-* .idea/Sipapa-Android.iml
-* .idea/compiler.xml
-* .idea/copyright/
-* .idea/copyright/profiles_settings.xml
-* .idea/misc.xml
-* .idea/modules.xml
-* .idea/vcs.xml
-* .idea/workspace.xml
 * README.md
 * Test/
 * Test/.project
@@ -48,6 +37,7 @@ Android Gradle projects use a different directory structure than ADT
 Eclipse projects. Here's how the projects were restructured:
 
 * AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets
 * res/ => app/src/main/res/
 * src/ => app/src/main/java/
 

@@ -28,8 +28,7 @@
 		        android:layout_width="match_parent"
 		        android:layout_height="wrap_content"
 		        android:background="@color/White"
-		        android:layout_marginTop="@dimen/activity_common_space"
-		        android:layout_marginBottom="@dimen/activity_common_space">
+		        android:layout_marginTop="@dimen/activity_common_space">
 		        
 		        <TextView 
 			       	android:layout_width="match_parent"
@@ -37,12 +36,12 @@
 				   	android:text="@string/top_article_title"
 				   	android:padding="@dimen/activity_rare_space"
 				   	android:textStyle="bold"/>
-		        
-		        <TextView 
+	            
+	            <TextView 
 			       	android:layout_width="match_parent"
 				   	android:layout_height="wrap_content"
-				   	android:text="@string/top_article_cat"
-				   	android:textColor="@color/DarkOrange"
+				   	android:text="@string/article_author"
+				   	android:textColor="@color/CoolBlue"
 				   	android:paddingRight="@dimen/activity_rare_space"
 				   	android:paddingLeft="@dimen/activity_rare_space"/>
 	            
@@ -50,6 +49,14 @@
 			       	android:layout_width="match_parent"
 				   	android:layout_height="wrap_content"
 				   	android:text="@string/article_date"
+				   	android:paddingRight="@dimen/activity_rare_space"
+				   	android:paddingLeft="@dimen/activity_rare_space"/>
+	            
+	            <TextView 
+			       	android:layout_width="match_parent"
+				   	android:layout_height="wrap_content"
+				   	android:text="@string/top_article_cat"
+				   	android:textColor="@color/ThemeColor"
 				   	android:paddingRight="@dimen/activity_rare_space"
 				   	android:paddingLeft="@dimen/activity_rare_space"/>
 	            
@@ -86,7 +93,7 @@
 		        android:layout_height="wrap_content"
 		        android:orientation="vertical"
 		        android:id="@+id/main_article_container"
-		        android:layout_marginBottom="@dimen/activity_common_space">
+		        android:layout_marginTop="@dimen/activity_common_space">
 		        
 		    </LinearLayout>
 		    <!-- End Main Article Container -->
@@ -97,7 +104,7 @@
 		        android:layout_height="wrap_content"
 		        android:orientation="vertical"
 		        android:id="@+id/ad_container"
-		        android:layout_marginBottom="@dimen/activity_common_space">
+		        android:layout_marginTop="@dimen/activity_common_space">
 		        
 		    </LinearLayout>
 		    <!-- End Adverts Container -->
@@ -108,7 +115,7 @@
 			    android:layout_height="wrap_content"
 			    android:orientation="vertical"
 				android:background="@color/White"
-				android:layout_marginBottom="@dimen/activity_common_space">
+				android:layout_marginTop="@dimen/activity_common_space">
 		        
 	            <TextView
 	                android:layout_width="match_parent"

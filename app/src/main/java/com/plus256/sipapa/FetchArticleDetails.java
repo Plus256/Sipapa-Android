@@ -35,6 +35,15 @@ public class FetchArticleDetails extends Activity {
 	    
 	    ad_container.addView(inflated_ad_item);
 	    
+	  //adding the footer
+	    LinearLayout body_wrapper=(LinearLayout) findViewById(R.id.body_wrapper);
+	    LinearLayout footer=(LinearLayout) findViewById(R.id.footer);
+	    
+	    LayoutInflater footer_inflater=(LayoutInflater) getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+	    View inflated_footer=footer_inflater.inflate(R.layout.footer, footer);
+	    
+	    body_wrapper.addView(inflated_footer);
+	    
 	  //setting article_image onclicklistener
 	    ImageView article_image=(ImageView) findViewById(R.id.article_image);
 	    article_image.setOnClickListener(new ImageView.OnClickListener(){

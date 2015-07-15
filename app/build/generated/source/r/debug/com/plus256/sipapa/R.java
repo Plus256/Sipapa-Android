@@ -12,15 +12,13 @@ public final class R {
     }
     public static final class color {
         public static final int Black=0x7f060000;
-        public static final int ChocoBrown=0x7f060001;
-        public static final int CoolBlue=0x7f060002;
-        public static final int DarkGrey=0x7f060003;
-        public static final int DarkOrange=0x7f060004;
-        public static final int Green=0x7f060005;
-        public static final int LightGreen=0x7f060006;
-        public static final int LightGrey=0x7f060007;
-        public static final int ThemeColor=0x7f060008;
-        public static final int White=0x7f060009;
+        public static final int CoolBlue=0x7f060001;
+        public static final int DarkGrey=0x7f060002;
+        public static final int LightGreen=0x7f060003;
+        public static final int LightGrey=0x7f060004;
+        public static final int OrangeYellow=0x7f060005;
+        public static final int ThemeColor=0x7f060006;
+        public static final int White=0x7f060007;
     }
     public static final class dimen {
         public static final int activity_common_space=0x7f050001;
@@ -46,14 +44,13 @@ public final class R {
         public static final int ic_share=0x7f02000b;
         public static final int internet_comm=0x7f02000c;
         public static final int lg_g4=0x7f02000d;
-        public static final int logo=0x7f02000e;
-        public static final int new_macbook=0x7f02000f;
-        public static final int project_spartan=0x7f020010;
-        public static final int rafiki=0x7f020011;
-        public static final int tag_watch=0x7f020012;
-        public static final int top_cover=0x7f020013;
-        public static final int twitter=0x7f020014;
-        public static final int visual_studio=0x7f020015;
+        public static final int new_macbook=0x7f02000e;
+        public static final int project_spartan=0x7f02000f;
+        public static final int rafiki=0x7f020010;
+        public static final int tag_watch=0x7f020011;
+        public static final int top_cover=0x7f020012;
+        public static final int twitter=0x7f020013;
+        public static final int visual_studio=0x7f020014;
     }
     public static final class id {
         public static final int about_text=0x7f090010;
@@ -96,23 +93,22 @@ public final class R {
         public static final int ad_description=0x7f070004;
         public static final int ad_title=0x7f070005;
         public static final int advertise_text=0x7f070006;
-        public static final int app_full_name=0x7f070007;
-        public static final int app_name=0x7f070008;
-        public static final int app_tagline=0x7f070009;
-        public static final int article_author=0x7f07000a;
-        public static final int article_body=0x7f07000b;
-        public static final int article_date=0x7f07000c;
-        public static final int article_views=0x7f07000d;
-        public static final int contact_text=0x7f07000e;
-        public static final int copyright=0x7f07000f;
-        public static final int hello_world=0x7f070010;
-        public static final int social_link=0x7f070011;
-        public static final int subscribe_button_text=0x7f070012;
-        public static final int subscribe_email_hint=0x7f070013;
-        public static final int subscribe_head_title=0x7f070014;
-        public static final int top_article_cat=0x7f070015;
-        public static final int top_article_title=0x7f070016;
-        public static final int top_cover_descr=0x7f070017;
+        public static final int app_name=0x7f070007;
+        public static final int app_tagline=0x7f070008;
+        public static final int article_author=0x7f070009;
+        public static final int article_body=0x7f07000a;
+        public static final int article_date=0x7f07000b;
+        public static final int article_views=0x7f07000c;
+        public static final int contact_text=0x7f07000d;
+        public static final int copyright=0x7f07000e;
+        public static final int hello_world=0x7f07000f;
+        public static final int social_link=0x7f070010;
+        public static final int subscribe_button_text=0x7f070011;
+        public static final int subscribe_email_hint=0x7f070012;
+        public static final int subscribe_head_title=0x7f070013;
+        public static final int top_article_cat=0x7f070014;
+        public static final int top_article_title=0x7f070015;
+        public static final int top_cover_descr=0x7f070016;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 

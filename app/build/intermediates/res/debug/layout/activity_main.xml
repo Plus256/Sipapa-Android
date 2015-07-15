@@ -36,8 +36,7 @@
 		        android:id="@+id/top_article"
 		        android:layout_width="match_parent"
 		        android:layout_height="wrap_content"
-		        android:layout_marginTop="@dimen/activity_common_space"
-		        android:layout_marginBottom="@dimen/activity_common_space">
+		        android:layout_marginTop="@dimen/activity_common_space">
 	
 		        <ImageView
 		            android:id="@+id/top_article_cover"
@@ -59,7 +58,7 @@
 				       	android:layout_width="match_parent"
 					   	android:layout_height="wrap_content"
 					   	android:text="@string/top_article_cat"
-					   	android:textColor="@color/DarkOrange"/>
+					   	android:textColor="@color/ThemeColor"/>
 		            
 		            <TextView 
 				       	android:layout_width="match_parent"
@@ -79,7 +78,7 @@
 		        android:layout_height="wrap_content"
 		        android:orientation="vertical"
 		        android:id="@+id/main_article_container"
-		        android:layout_marginBottom="@dimen/activity_common_space">
+		        android:layout_marginTop="@dimen/activity_common_space">
 		        
 		    </LinearLayout>
 		    <!-- End Main Article Container -->
@@ -90,7 +89,7 @@
 		        android:layout_height="wrap_content"
 		        android:orientation="vertical"
 		        android:id="@+id/ad_container"
-		        android:layout_marginBottom="@dimen/activity_common_space">
+		        android:layout_marginTop="@dimen/activity_common_space">
 		        
 		    </LinearLayout>
 		    <!-- End Adverts Container -->
@@ -101,7 +100,7 @@
 			    android:layout_height="wrap_content"
 			    android:orientation="vertical"
 				android:background="@color/White"
-				android:layout_marginBottom="@dimen/activity_common_space">
+				android:layout_marginTop="@dimen/activity_common_space">
 		        
 	            <TextView
 	                android:layout_width="match_parent"
