@@ -12,9 +12,38 @@
             backward-compatibility can go here.
         -->
     </style>
-    
+
     <style name="AppTheme" parent="@style/AppBaseTheme">
         <!-- Define Custom Styles -->
     </style>
 
 </resources>
+<!--
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Base application theme--
+<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+<item name="android:actionBarStyle">@style/ActionBar.Solid.Sunshine</item>
+</style>
+
+    <!--Action Bar Style--
+<style name="ActionBar.Solid.Sunshine" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+<item name="android:background">@color/ThemeColor</item>
+</style>
+
+    <!--Main Activity Theme--
+<style name="ForecastTheme" parent="AppTheme">
+<item name="android:actionBarStyle">@style/ActionBar.Solid.Sunshine.NoTitle</item>
+</style>
+
+    <!--Main Activity Action Bar style--
+<style name="ActionBar.Solid.Sunshine.NoTitle" parent="ActionBar.Solid.Sunshine">
+<item name="android:displayOptions">useLogo |showHome</item>
+<item name="logo">@drawable/twitter</item>
+</style>
+
+    </resources>
+
+
+-->

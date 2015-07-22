@@ -13,16 +13,7 @@
 	    android:layout_width="match_parent"
 	    android:layout_height="wrap_content"
 	    android:id="@+id/body_wrapper">
-	    
-	    <!-- Start Tagline
-	    <TextView 
-	       	android:layout_width="match_parent"
-		   	android:layout_height="wrap_content"
-		   	android:text="@string/app_tagline"
-		   	android:textColor="@color/OrangeYellow"
-		   	android:background="@color/DarkGrey"
-		   	android:padding="@dimen/activity_common_space"
-		   	android:gravity="center_horizontal"/> -->
+
 	
 		<LinearLayout
 		    android:orientation="vertical"
@@ -30,8 +21,18 @@
 		    android:layout_height="wrap_content"
 		    android:paddingLeft="@dimen/activity_common_space"
 	    	android:paddingRight="@dimen/activity_common_space">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Artists Management, Events Organising, Production House (Sipapa Records) and many others."
+				android:textColor="@color/Black"
+				android:background="@color/LightGrey"
+				android:padding="@dimen/activity_common_space"
+				android:layout_marginBottom="@dimen/activity_common_space"
+				android:gravity="center_horizontal"/>
 		    
-		    <!-- Start Top Article Container -->
+		    <!-- Start Top Article Container
 		    <RelativeLayout
 		        android:id="@+id/top_article"
 		        android:layout_width="match_parent"
@@ -44,7 +45,7 @@
 		            android:layout_height="wrap_content"
 		            android:contentDescription="@string/top_cover_descr"
 		            android:scaleType="fitXY"
-		            android:src="@drawable/new_macbook" />
+		            android:src="@drawable/cover" />
 			   
 		        <LinearLayout
 		            android:layout_width="match_parent"
@@ -70,17 +71,346 @@
 		        </LinearLayout>
 		        
 		    </RelativeLayout>
-		    <!-- End Top Article Container -->
+		    End Top Article Container -->
 		    
 		    <!-- Start Main Article Container -->
-	        <LinearLayout
-		        android:layout_width="match_parent"
-		        android:layout_height="wrap_content"
-		        android:orientation="vertical"
-		        android:id="@+id/main_article_container"
-		        android:layout_marginTop="@dimen/activity_common_space">
-		        
-		    </LinearLayout>
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:background="@color/White"
+					android:layout_marginBottom="@dimen/activity_common_space">
+
+					<ImageView
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:src="@drawable/cover"
+						android:scaleType="fitXY"
+						android:contentDescription="@string/top_cover_descr"/>
+
+					<LinearLayout
+						android:orientation="vertical"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="@dimen/activity_rare_space">
+
+						<TextView
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:text="@string/article_date"
+							android:textColor="@color/ThemeColor"/>
+
+						<TextView
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:text="Akatti Collabo. Chamileon and Mary Bata."
+							android:textColor="@color/Black"/>
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:orientation="horizontal"
+							android:padding="@dimen/activity_rare_space">
+
+							<TextView
+								android:layout_width="0dp"
+								android:layout_weight="1"
+								android:layout_height="wrap_content"
+								android:text="903 Likes"
+								android:gravity="center_horizontal"
+								android:textColor="@color/LightGrey"/>
+
+							<TextView
+								android:layout_width="0dp"
+								android:layout_weight="1"
+								android:layout_height="wrap_content"
+								android:text="16 Comments"
+								android:gravity="center_horizontal"
+								android:textColor="@color/LightGrey"/>
+
+							<TextView
+								android:layout_width="0dp"
+								android:layout_weight="1"
+								android:layout_height="wrap_content"
+								android:text="76 Shares"
+								android:gravity="center_horizontal"
+								android:textColor="@color/LightGrey"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:orientation="horizontal"
+							android:padding="@dimen/activity_rare_space">
+
+							<TextView
+								android:layout_width="0dp"
+								android:layout_weight="1"
+								android:layout_height="wrap_content"
+								android:text="Like"
+								android:textColor="@color/White"
+								android:gravity="center_horizontal"
+								android:background="@color/LightGrey"
+								android:padding="@dimen/activity_rare_space"/>
+
+							<TextView
+								android:layout_width="0dp"
+								android:layout_weight="1"
+								android:layout_height="wrap_content"
+								android:text="Comment"
+								android:textColor="@color/White"
+								android:gravity="center_horizontal"
+								android:background="@color/LightGrey"
+								android:padding="@dimen/activity_rare_space"
+								android:layout_marginRight="@dimen/activity_rare_space"
+								android:layout_marginLeft="@dimen/activity_rare_space"/>
+
+							<!--<ImageView
+								android:layout_width="0dp"
+								android:layout_height="wrap_content"
+								android:layout_weight="1"
+								android:src="@drawable/ic_share"
+								android:background="@color/LightGrey"/>-->
+
+							<TextView
+								android:layout_width="0dp"
+								android:layout_weight="1"
+								android:layout_height="wrap_content"
+								android:text="Share"
+								android:textColor="@color/White"
+								android:gravity="center_horizontal"
+								android:background="@color/LightGrey"
+								android:padding="@dimen/activity_rare_space"/>
+
+						</LinearLayout>
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:background="@color/White"
+					android:layout_marginBottom="@dimen/activity_common_space">
+
+					<ImageView
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:src="@drawable/car"
+						android:scaleType="fitXY"
+						android:contentDescription="@string/top_cover_descr"/>
+
+					<LinearLayout
+						android:orientation="vertical"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="@dimen/activity_rare_space">
+
+						<TextView
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:text="@string/article_date"
+							android:textColor="@color/ThemeColor"/>
+
+						<TextView
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:text="They both wish you a good afternoon."
+							android:textColor="@color/Black"/>
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:orientation="horizontal"
+							android:padding="@dimen/activity_rare_space">
+
+							<TextView
+								android:layout_width="0dp"
+								android:layout_weight="1"
+								android:layout_height="wrap_content"
+								android:text="665K Likes"
+								android:gravity="center_horizontal"
+								android:textColor="@color/LightGrey"/>
+
+							<TextView
+								android:layout_width="0dp"
+								android:layout_weight="1"
+								android:layout_height="wrap_content"
+								android:text="165 Comments"
+								android:gravity="center_horizontal"
+								android:textColor="@color/LightGrey"/>
+
+							<TextView
+								android:layout_width="0dp"
+								android:layout_weight="1"
+								android:layout_height="wrap_content"
+								android:text="7 Shares"
+								android:gravity="center_horizontal"
+								android:textColor="@color/LightGrey"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:orientation="horizontal"
+							android:padding="@dimen/activity_rare_space">
+
+							<TextView
+								android:layout_width="0dp"
+								android:layout_weight="1"
+								android:layout_height="wrap_content"
+								android:text="Like"
+								android:textColor="@color/White"
+								android:gravity="center_horizontal"
+								android:background="@color/LightGrey"
+								android:padding="@dimen/activity_rare_space"/>
+
+							<TextView
+								android:layout_width="0dp"
+								android:layout_weight="1"
+								android:layout_height="wrap_content"
+								android:text="Comment"
+								android:textColor="@color/White"
+								android:gravity="center_horizontal"
+								android:background="@color/LightGrey"
+								android:padding="@dimen/activity_rare_space"
+								android:layout_marginRight="@dimen/activity_rare_space"
+								android:layout_marginLeft="@dimen/activity_rare_space"/>
+
+							<TextView
+								android:layout_width="0dp"
+								android:layout_weight="1"
+								android:layout_height="wrap_content"
+								android:text="Share"
+								android:textColor="@color/White"
+								android:gravity="center_horizontal"
+								android:background="@color/LightGrey"
+								android:padding="@dimen/activity_rare_space"/>
+
+						</LinearLayout>
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:background="@color/White"
+					android:layout_marginBottom="@dimen/activity_common_space">
+
+					<ImageView
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:src="@drawable/car4"
+						android:scaleType="fitXY"
+						android:contentDescription="@string/top_cover_descr"/>
+
+					<LinearLayout
+						android:orientation="vertical"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="@dimen/activity_rare_space">
+
+						<TextView
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:text="@string/article_date"
+							android:textColor="@color/ThemeColor"/>
+
+						<TextView
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:text="Serena Bata with a brand new tune. Hit after hit. Sipapa Entertainment taking it to the next level."
+							android:textColor="@color/Black"/>
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:orientation="horizontal"
+							android:padding="@dimen/activity_rare_space">
+
+							<TextView
+								android:layout_width="0dp"
+								android:layout_weight="1"
+								android:layout_height="wrap_content"
+								android:text="13 Likes"
+								android:gravity="center_horizontal"
+								android:textColor="@color/LightGrey"/>
+
+							<TextView
+								android:layout_width="0dp"
+								android:layout_weight="1"
+								android:layout_height="wrap_content"
+								android:text="19 Comments"
+								android:gravity="center_horizontal"
+								android:textColor="@color/LightGrey"/>
+
+							<TextView
+								android:layout_width="0dp"
+								android:layout_weight="1"
+								android:layout_height="wrap_content"
+								android:text="26 Shares"
+								android:gravity="center_horizontal"
+								android:textColor="@color/LightGrey"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:orientation="horizontal"
+							android:padding="@dimen/activity_rare_space">
+
+							<TextView
+								android:layout_width="0dp"
+								android:layout_weight="1"
+								android:layout_height="wrap_content"
+								android:text="Like"
+								android:textColor="@color/White"
+								android:gravity="center_horizontal"
+								android:background="@color/LightGrey"
+								android:padding="@dimen/activity_rare_space"/>
+
+							<TextView
+								android:layout_width="0dp"
+								android:layout_weight="1"
+								android:layout_height="wrap_content"
+								android:text="Comment"
+								android:textColor="@color/White"
+								android:gravity="center_horizontal"
+								android:background="@color/LightGrey"
+								android:padding="@dimen/activity_rare_space"
+								android:layout_marginRight="@dimen/activity_rare_space"
+								android:layout_marginLeft="@dimen/activity_rare_space"/>
+
+							<TextView
+								android:layout_width="0dp"
+								android:layout_weight="1"
+								android:layout_height="wrap_content"
+								android:text="Share"
+								android:textColor="@color/White"
+								android:gravity="center_horizontal"
+								android:background="@color/LightGrey"
+								android:padding="@dimen/activity_rare_space"/>
+
+						</LinearLayout>
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+			</LinearLayout>
 		    <!-- End Main Article Container -->
 		    
 		    <!-- Start Adverts Container -->

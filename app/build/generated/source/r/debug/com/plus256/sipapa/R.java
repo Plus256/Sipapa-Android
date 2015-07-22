@@ -30,60 +30,78 @@ public final class R {
         public static final int tiny_divider=0x7f050006;
     }
     public static final class drawable {
-        public static final int delhi_rickshaw=0x7f020000;
-        public static final int facebook=0x7f020001;
-        public static final int facebook_delete=0x7f020002;
-        public static final int gaming=0x7f020003;
-        public static final int google=0x7f020004;
-        public static final int ic_chevron_left=0x7f020005;
-        public static final int ic_launcher=0x7f020006;
-        public static final int ic_like=0x7f020007;
-        public static final int ic_menu=0x7f020008;
-        public static final int ic_more_vert=0x7f020009;
-        public static final int ic_search=0x7f02000a;
-        public static final int ic_share=0x7f02000b;
-        public static final int internet_comm=0x7f02000c;
-        public static final int lg_g4=0x7f02000d;
-        public static final int new_macbook=0x7f02000e;
-        public static final int project_spartan=0x7f02000f;
-        public static final int rafiki=0x7f020010;
-        public static final int tag_watch=0x7f020011;
-        public static final int top_cover=0x7f020012;
-        public static final int twitter=0x7f020013;
-        public static final int visual_studio=0x7f020014;
+        public static final int car=0x7f020000;
+        public static final int car0=0x7f020001;
+        public static final int car1=0x7f020002;
+        public static final int car10=0x7f020003;
+        public static final int car11=0x7f020004;
+        public static final int car12=0x7f020005;
+        public static final int car2=0x7f020006;
+        public static final int car3=0x7f020007;
+        public static final int car4=0x7f020008;
+        public static final int car5=0x7f020009;
+        public static final int car6=0x7f02000a;
+        public static final int car7=0x7f02000b;
+        public static final int car8=0x7f02000c;
+        public static final int car9=0x7f02000d;
+        public static final int cover=0x7f02000e;
+        public static final int delhi_rickshaw=0x7f02000f;
+        public static final int facebook=0x7f020010;
+        public static final int facebook_delete=0x7f020011;
+        public static final int fffcar1=0x7f020012;
+        public static final int gaming=0x7f020013;
+        public static final int ggcar2=0x7f020014;
+        public static final int google=0x7f020015;
+        public static final int ic_chevron_left=0x7f020016;
+        public static final int ic_launcher=0x7f020017;
+        public static final int ic_like=0x7f020018;
+        public static final int ic_menu=0x7f020019;
+        public static final int ic_more_vert=0x7f02001a;
+        public static final int ic_search=0x7f02001b;
+        public static final int ic_share=0x7f02001c;
+        public static final int internet_comm=0x7f02001d;
+        public static final int lg_g4=0x7f02001e;
+        public static final int logo=0x7f02001f;
+        public static final int new_macbook=0x7f020020;
+        public static final int project_spartan=0x7f020021;
+        public static final int rafiki=0x7f020022;
+        public static final int rrrrr=0x7f020023;
+        public static final int tag_watch=0x7f020024;
+        public static final int top_cover=0x7f020025;
+        public static final int twitter=0x7f020026;
+        public static final int visual_studio=0x7f020027;
     }
     public static final class id {
-        public static final int about_text=0x7f090010;
-        public static final int action_settings=0x7f090013;
-        public static final int ad_container=0x7f090005;
-        public static final int ad_item=0x7f090007;
-        public static final int advertise_text=0x7f090012;
-        public static final int article_details=0x7f090008;
-        public static final int article_image=0x7f09000a;
-        public static final int article_row=0x7f090009;
-        public static final int article_title=0x7f09000b;
+        public static final int about_text=0x7f09000b;
+        public static final int action_settings=0x7f09000e;
+        public static final int ad_container=0x7f090001;
+        public static final int ad_item=0x7f090006;
+        public static final int advertise_text=0x7f09000d;
+        public static final int article_details=0x7f090003;
         public static final int body_wrapper=0x7f090000;
-        public static final int contact_text=0x7f090011;
-        public static final int facebook_connect=0x7f09000d;
-        public static final int footer=0x7f09000c;
-        public static final int google_plus_connect=0x7f09000f;
-        public static final int main_article_container=0x7f090004;
-        public static final int subscribe_email=0x7f090006;
-        public static final int top_article=0x7f090001;
-        public static final int top_article_cover=0x7f090002;
-        public static final int top_article_title=0x7f090003;
-        public static final int twitter_connect=0x7f09000e;
+        public static final int contact_text=0x7f09000c;
+        public static final int facebook_connect=0x7f090008;
+        public static final int footer=0x7f090007;
+        public static final int google_plus_connect=0x7f09000a;
+        public static final int main_article_container=0x7f090005;
+        public static final int subscribe_email=0x7f090002;
+        public static final int top_article_cover=0x7f090004;
+        public static final int twitter_connect=0x7f090009;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int ad_item=0x7f030001;
-        public static final int article_details=0x7f030002;
-        public static final int article_row=0x7f030003;
-        public static final int footer=0x7f030004;
+        public static final int activity_main_activity2=0x7f030001;
+        public static final int activity_main_activity22=0x7f030002;
+        public static final int ad_item=0x7f030003;
+        public static final int article_details=0x7f030004;
+        public static final int article_row=0x7f030005;
+        public static final int footer=0x7f030006;
     }
     public static final class menu {
         public static final int fetch_article_details=0x7f080000;
         public static final int main=0x7f080001;
+        public static final int menu_main_activity2=0x7f080002;
+        public static final int menu_main_activity22=0x7f080003;
     }
     public static final class string {
         public static final int about_text=0x7f070000;
@@ -99,16 +117,20 @@ public final class R {
         public static final int article_body=0x7f07000a;
         public static final int article_date=0x7f07000b;
         public static final int article_views=0x7f07000c;
-        public static final int contact_text=0x7f07000d;
-        public static final int copyright=0x7f07000e;
-        public static final int hello_world=0x7f07000f;
-        public static final int social_link=0x7f070010;
-        public static final int subscribe_button_text=0x7f070011;
-        public static final int subscribe_email_hint=0x7f070012;
-        public static final int subscribe_head_title=0x7f070013;
-        public static final int top_article_cat=0x7f070014;
-        public static final int top_article_title=0x7f070015;
-        public static final int top_cover_descr=0x7f070016;
+        public static final int comment_button_hint=0x7f07000d;
+        public static final int comment_button_text=0x7f07000e;
+        public static final int contact_text=0x7f07000f;
+        public static final int copyright=0x7f070010;
+        public static final int hello_world=0x7f070011;
+        public static final int social_link=0x7f070012;
+        public static final int subscribe_button_text=0x7f070013;
+        public static final int subscribe_email_hint=0x7f070014;
+        public static final int subscribe_head_title=0x7f070015;
+        public static final int title_activity_main_activity2=0x7f070016;
+        public static final int title_activity_main_activity22=0x7f070017;
+        public static final int top_article_cat=0x7f070018;
+        public static final int top_article_title=0x7f070019;
+        public static final int top_cover_descr=0x7f07001a;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 
