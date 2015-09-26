@@ -1,32 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Sipapa Entertainment</string>
-    <string name="app_tagline">Home Brewed Entertainment</string>
+    <string name="app_name">Sipapa</string>
+    <string name="main_title">News feed</string>
     <string name="action_settings">Settings</string>
-    <string name="top_cover_descr">The Top Cover Picture</string>
-    <string name="top_article_cat">Tech</string>
-    <string name="top_article_title">TAG Heuer\'s luxury smartwatch to cost $1400, have a 40-hour battery.</string>
-    <string name="article_author">Collins Wagaba</string>
-    <string name="article_date">Apr 30th, 2015</string>
-    <string name="article_views">139K Views</string>
-    <string name="article_body">We no longer require homes, bars, offices or cafes to keep in touch with people. We can do it literally anywhere we happen to be. This begs the question: when we connect to our devices, are we disconnecting from the people around us? Are we hiding behind a screen from the physical world and becoming antisocial in turn? While there is a sense of panic about how the Internet is detrimental to communication, there are also lots of people who believe that it is actually enhancing our relationships. For better or worse, here are a few of the ways the Internet is changing the way we communicate, and how you can keep abreast of tech advances thanks to eBay.</string>
-    <string name="subscribe_head_title">NEWSLETTERS</string>
-    <string name="subscribe_email_hint">Email Address</string>
-    <string name="subscribe_button_text">SUBSCRIBE</string>
-    <string name="comment_button_text">Post</string>
-    <string name="comment_button_hint">Write a Comment</string>
-    <string name="action_search">Search Articles</string>
-    <string name="action_more">More Options</string>
-    <string name="ad_title">Rafiki Adeventures</string>
-    <string name="ad_description">Much more than a Safari.</string>
-    <string name="copyright">Copyright 2015 Sipapa Entertainment</string>
-    <string name="about_text">About</string>
-    <string name="contact_text">Contact</string>
-    <string name="advertise_text">Advertise</string>
-    <string name="social_link">Social Link</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="title_activity_main_activity2">MainActivity2Activity</string>
-    <string name="title_activity_main_activity22">MainActivity22Activity</string>
+
+    <string name="image_description">Awesome Image</string>
+    <string name="date_time">July 27 at 21:25</string>
+
+    <string name="farming">As we wrap up our first tour of Eastern Uganda, I would like to send a special thank you message to all who came to share with me. I am deeply humbled by your commitment to the message of change.</string>
+    <string name="bujumbura">I would also like to sympathise with all those peaceful Ugandans that assembled to hear the message and who suffered the effects from teargas and unnecessary police violence. Specifically the people of Soroti and Jinja.</string>
+    <string name="ethiopia">I will be heading to Northern Uganda next week and hope to share with you on a number of pertinent issues affecting the region and how we can Go Forward to build a better, stronger, prosperous Uganda.</string>
+    <string name="revenue">I would like to thank the entire population of Busoga for the warm welcome I received yesterday. It is humbling to see the solidarity we had despite the heavy police deployment.</string>
+    <string name="russians">The consultative meeting did indeed take place at the Nile Village Hotel after numerous efforts by the Uganda Police to sabotage each arrangement that the team put in place.</string>
 
 </resources>

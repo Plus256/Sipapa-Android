@@ -1,49 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!--
-        Base application theme, dependent on API level. This theme is replaced
-        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
-    -->
-    <style name="AppBaseTheme" parent="android:Theme.Light">
-        <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        -->
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <!--Support Library Compatibility-->
+        <item name="actionBarStyle">@style/MyActionBar</item>
     </style>
 
-    <style name="AppTheme" parent="@style/AppBaseTheme">
-        <!-- Define Custom Styles -->
+    <!--ActionBar Styles-->
+    <style name="MyActionBar"
+        parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        
+        <item name="android:background">@color/ThemeCounter</item>
+        
+        <!--Support Library Compatibility-->
+        <item name="background">@color/ThemeCounter</item>
+        
     </style>
 
 </resources>
-<!--
-
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!--Base application theme--
-<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-<item name="android:actionBarStyle">@style/ActionBar.Solid.Sunshine</item>
-</style>
-
-    <!--Action Bar Style--
-<style name="ActionBar.Solid.Sunshine" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
-<item name="android:background">@color/ThemeColor</item>
-</style>
-
-    <!--Main Activity Theme--
-<style name="ForecastTheme" parent="AppTheme">
-<item name="android:actionBarStyle">@style/ActionBar.Solid.Sunshine.NoTitle</item>
-</style>
-
-    <!--Main Activity Action Bar style--
-<style name="ActionBar.Solid.Sunshine.NoTitle" parent="ActionBar.Solid.Sunshine">
-<item name="android:displayOptions">useLogo |showHome</item>
-<item name="logo">@drawable/twitter</item>
-</style>
-
-    </resources>
-
-
--->
