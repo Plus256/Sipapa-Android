@@ -23,39 +23,11 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
 
         //initialising the drawer list
-        String[] navItemsArray={"News", "Music", "Events", "About", "Artists", "Gallery"};
+        String[] navItemsArray={"News", "Music", "Events", "Artists", "About", "Gallery"};
         List<String> navItemsList=new ArrayList<String>(Arrays.asList(navItemsArray));
         nAdapter=new ArrayAdapter<String>(this, R.layout.drawer_list_item, R.id.drawer_list_item, navItemsList);
         nDrawerList=(ListView)findViewById(R.id.left_drawer);
         nDrawerList.setAdapter(nAdapter);
-
-        //JSON FEEDS
-        /*ArrayList<Feed>feed_list=new ArrayList<Feed>();
-        String feeds=getString(R.string.Feeds);//JSON SOURCE-FILE
-        try{
-            JSONArray feed_array=new JSONArray(feeds);
-            for(int i=0; i<feed_array.length(); i++){
-                JSONObject feed=feed_array.getJSONObject(i);
-
-                Feed this_feed=new Feed();
-
-                this_feed.setImage(feed.getString("image"));
-                this_feed.setDate(feed.getString("date"));
-                this_feed.setText(feed.getString("text"));
-                this_feed.setLikes(feed.getString("likes"));
-                this_feed.setComments(feed.getString("comments"));
-                this_feed.setShares(feed.getString("shares"));
-
-                feed_list.add(this_feed);
-            }
-        }
-        catch(JSONException e){
-            e.printStackTrace();
-        }
-
-        ListView body_wrapper=(ListView)findViewById(R.id.body_wrapper);
-        FeedAdapter feed_adapter=new FeedAdapter(getApplicationContext(), R.layout.main_feed, feed_list);
-        body_wrapper.setAdapter(feed_adapter);*/
     }
 
     @Override
